@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+    <aside>
+        <header><h1>HTML Documentation</h1></header>
+        <nav id="navbar">
+            <ul>
+                <li><a href="#html_elements" class="nav-link">HTML Elements</a></li>
+                <li><a href="#html_attributes" class="nav-link">HTML Attributes</a></li>
+                <li><a href="#html_headings" class="nav-link">HTML Headings</a></li>
+                <li><a href="#html_comments" class="nav-link">HTML Comments</a></li>
+                <li><a href="#html_links" class="nav-link">HTML Links</a></li>
+            </ul>
+        </nav>
+    </aside>
+    <main id="main-doc">
+        <section class="main-section" id="html_elements">
+            <header>
+                <h2>HTML Elements</h2>
+            </header>
+            <p>The HTML element is everything from the start tag to the end tag:</p>
+            <code>&lt;p&gt;Content goes here...&lt;/p&gt;</code>
+            <p>HTML elements can be nested (this means that elements can contain other elements).</p>
+        </section>
+        <section class="main-section" id="html_attributes">
+            <header>
+                <h2>HTML Attributes</h2>
+            </header>
+            <p>HTML attributes provide additional information about HTML elements.</p>
+            <ul id="attributes-list">
+                <li>All HTML elements can have attributes</li>
+                <li>Attributes provide additional information about elements</li>
+                <li>Attributes are always specified in the start tag</li>
+                <li>Attributes usually come in name/value pairs like: name="value"</li>
+            </ul>
+            <p>The &lt;a&gt; tag defines a hyperlink. The href attribute specifies the URL of the page the link goes to:</p>
+            <code>&lt;a href="https://www.w3schools.com"&gt; Visit W3Schools &lt;/a&gt;</code>    
+            <p>We Suggest: Always Use Lowercase Attributes
+                The HTML standard does not require lowercase attribute names.
+                The title attribute (and all other attributes) can be written with uppercase or lowercase like title or TITLE.
+                However, W3C recommends lowercase attributes in HTML, and demands lowercase attributes for stricter document types like XHTML.</p>
+        </section>
+        <section class="main-section" id="html_headings">
+            <header>
+                <h2>HTML Headings</h2>
+            </header>
+            <p>HTML headings are titles or subtitles that you want to display on a webpage:</p>
+            <p>HTML headings are defined with the &lt;h1&gt; to &lt;h6&gt; tags.
+                &lt;h1&gt; defines the most important heading. &lt;h6&gt; defines the least important heading.</p>
+                <code>
+                    &lt;h1&gt;Heading 1&lt;/h1&gt;<br>
+                    &lt;h2&gt;Heading 2&lt;/h2&gt;<br>
+                    &lt;h3&gt;Heading 3&lt;/h3&gt;<br>
+                    &lt;h4&gt;Heading 4&lt;/h4&gt;<br>
+                    &lt;h5&gt;Heading 5&lt;/h5&gt;<br>
+                    &lt;h6&gt;Heading 6&lt;/h6&gt;
+                </code>
+        </section>
+        <section class="main-section" id="html_comments">
+            <header>
+                <h2>HTML Comments</h2>
+            </header>
+            <p>HTML comments are not displayed in the browser, but they can help document your HTML source code.
+            </p>
+            <p>You can add comments to your HTML source by using the following syntax:</p>
+            <code>&lt;!--Write your comments here--&gt;</code>
+        </section>
+        <section class="main-section" id="html_links">
+            <header>
+                <h2>HTML Links</h2>
+            </header>
+            <p>Links are found in nearly all web pages. Links allow users to click their way from page to page.</p>
+            <p>This example shows how to create a link to W3Schools.com:</p>
+            <code>&lt;a href="https://www.w3schools.com/"&gt; Visit W3Schools.com! &lt;/a&gt;</code>
+            
+        </section>
+    </main>
+    </div>
+</body>
+</html>
